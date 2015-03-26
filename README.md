@@ -1,2 +1,2 @@
-# homebrew-chisel-commands
-A collection of Facebook Chisel commands.
+# homebrew-formulae
+A collection of Homebrew formulas for installing some things I made.
