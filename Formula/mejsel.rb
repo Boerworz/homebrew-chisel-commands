@@ -15,8 +15,10 @@ class Mejsel < Formula
 		Add the following line to ~/.lldbinit to load mejsel when Xcode launches:
 		  script fblldb.loadCommandsInDirectory("#{opt_libexec}")
 		
-		Make sure that line occurs after the line that imports Chisel:
-		  command script import #{opt_libexec}/fblldb.py
+		Make sure that line occurs after the line that imports Chisel. It probably looks something like:
+		  command script import /usr/local/opt/chisel/libexec/fblldb.py
+
+		If your ~/.lldbinit file doesn't contain the above line, simply add it.
 		EOS
 	end
 end
